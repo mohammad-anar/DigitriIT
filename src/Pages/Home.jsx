@@ -7,9 +7,9 @@ const Home = () => {
 
     {/* hero section */}
       <section id="hero">
-        <div className={`h-[89vh] bg-hero-bg max-w-[800px]`}>
+        <div className={`h-[89vh] bg-hero-bg`}>
           <div className="bg-gradient-to-r from-white to-[rgba(0, 0, 0, 0)] h-full w-full flex items-center">
-            <div>
+            <div className=" max-w-[800px]">
               <h1 className="text-[80px] leading-[122%] font-bold max-w-[760px] font-[poppins]">
                 Grow Your <span className="text-[#233DFF]">Digital </span>Presence with Our Experts
               </h1>
