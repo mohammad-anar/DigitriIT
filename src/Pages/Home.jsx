@@ -4,11 +4,11 @@ import facebook_ads_icon from "../assets/images/facebook_ads.png";
 import portfolio1 from "../assets/images/portfolio.png";
 import My_Image from "../assets/images/Masum Ahmed.png";
 import member1 from "../assets/images/Masum Ahmed.png";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaLongArrowAltRight } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
+// import { FaTwitter } from "react-icons/fa";
+// import { FaLinkedinIn } from "react-icons/fa";
+// import { FaLongArrowAltRight } from "react-icons/fa";
 
 // primary color : #233DFF
 
@@ -339,9 +339,9 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-4 gap-5">
             {/* member1 */}
-            <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 pt-26 rounded-tr-[200px]">
+             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
               <img
-                className="max-w-[200px] w-40 h-40 object-cover rounded-full border"
+                className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
                 alt="member1"
               />
@@ -353,29 +353,12 @@ const Home = () => {
                 <p className="text-white opacity-85">
                 Hello..! I’m a Data-driven Digital Marketing Specialist & Social Media Manager.
                 </p>
-                <div className="flex items-center gap-4 justify-center mt-5">
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer shadow-2xl shadow-red-600">
-                    <FaFacebookF size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaInstagram size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaTwitter size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaLinkedinIn size={20} />
-                  </div>
-                </div>
-                <div className="flex items-center justify-center mt-5">
-                  <button title="Show details" className="bg-white flex items-center justify-center rounded-full px-6 btn">Deatails <FaLongArrowAltRight size={20}/></button>
-                </div>
               </div>
             </div>
             {/* member2 */}
-            <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 pt-26 rounded-tr-[200px]">
+             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
               <img
-                className="max-w-[200px] w-40 h-40 object-cover rounded-full border"
+                className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
                 alt="member1"
               />
@@ -387,29 +370,12 @@ const Home = () => {
                 <p className="text-white opacity-85">
                 Hello..! I’m a Data-driven Digital Marketing Specialist & Social Media Manager.
                 </p>
-                <div className="flex items-center gap-4 justify-center mt-5">
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer shadow-2xl shadow-red-600">
-                    <FaFacebookF size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaInstagram size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaTwitter size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaLinkedinIn size={20} />
-                  </div>
-                </div>
-                <div className="flex items-center justify-center mt-5">
-                  <button title="Show details" className="bg-white flex items-center justify-center rounded-full px-6 btn">Deatails <FaLongArrowAltRight size={20}/></button>
-                </div>
               </div>
             </div>
             {/* member3 */}
-            <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 pt-26 rounded-tr-[200px]">
+             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
               <img
-                className="max-w-[200px] w-40 h-40 object-cover rounded-full border"
+                className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
                 alt="member1"
               />
@@ -421,23 +387,6 @@ const Home = () => {
                 <p className="text-white opacity-85">
                 Hello..! I’m a Data-driven Digital Marketing Specialist & Social Media Manager.
                 </p>
-                <div className="flex items-center gap-4 justify-center mt-5">
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer shadow-2xl shadow-red-600">
-                    <FaFacebookF size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaInstagram size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaTwitter size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaLinkedinIn size={20} />
-                  </div>
-                </div>
-                <div className="flex items-center justify-center mt-5">
-                  <button title="Show details" className="bg-white flex items-center justify-center rounded-full px-6 btn">Deatails <FaLongArrowAltRight size={20}/></button>
-                </div>
               </div>
             </div>
             {/* member4 */}
@@ -455,23 +404,6 @@ const Home = () => {
                 <p className="text-white opacity-85">
                 Hello..! I’m a Data-driven Digital Marketing Specialist & Social Media Manager.
                 </p>
-                <div className="flex items-center gap-4 justify-center mt-5">
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer shadow-2xl shadow-red-600">
-                    <FaFacebookF size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaInstagram size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaTwitter size={20} />
-                  </div>
-                  <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer">
-                    <FaLinkedinIn size={20} />
-                  </div>
-                </div>
-                <div className="flex items-center justify-center mt-5">
-                  <button title="Show details" className="bg-white flex items-center justify-center rounded-full px-6 btn">Deatails <FaLongArrowAltRight size={20}/></button>
-                </div>
               </div>
             </div>
           </div>
