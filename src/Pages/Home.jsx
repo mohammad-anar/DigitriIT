@@ -19,8 +19,8 @@ const Home = () => {
       <section id="hero">
         <div className={`h-[89vh] bg-hero-bg `}>
           <div className=" h-full w-full flex items-center">
-            <div className=" max-w-[800px]">
-              <h1 className="text-[80px] leading-[122%] font-bold max-w-[760px] font-[poppins]">
+            <div className=" max-w-[800px] px-5 sm:px-10 lg:px-16">
+              <h1 className="md:text-[80px] text-[52px] leading-[122%] font-bold max-w-[760px] font-[poppins]">
                 Grow Your <span className="text-[#233DFF]">Digital </span>
                 Presence with Our Experts
               </h1>
@@ -75,7 +75,7 @@ const Home = () => {
               Professionally.
             </p>
             {/* card section ==========*/}
-            <div className="grid grid-cols-3 gap-5 mt-5">
+            <div className="sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 flex flex-wrap w-full justify-center items-center">
               {/* card1 */}
               <div
                 id="service-card-container"
@@ -251,15 +251,15 @@ const Home = () => {
             <hr className="w-40% mx-auto my-5" />
           </div>
           {/* portfolio container  */}
-          <div className="grid grid-cols-3 gap-10 px-5 pr-10">
+          <div className="flex md:grid items-center justify-center flex-wrap md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 pr-10 sm:-ml-10">
             {/* portfolio1  */}
             <div>
               <a
                 href="#"
-                className="max-h-[600px] overflow-hidden rounded-3xl shadow-2xl hover:shadow-xl duration-300 inline-block"
+                className="max-h-[600px] w-full flex items-center justify-center overflow-hidden rounded-3xl shadow-2xl hover:shadow-xl duration-300 sm:inline-block"
               >
                 <img
-                  className="max-w-[400px]"
+                  className="max-w-[320px] sm:max-w-[400px]"
                   src={portfolio1}
                   alt="portfolio image"
                 />
@@ -269,10 +269,10 @@ const Home = () => {
             <div>
               <a
                 href="#"
-                className="max-h-[600px] overflow-hidden rounded-3xl shadow-2xl hover:shadow-xl duration-300 inline-block"
+                className="max-h-[600px] w-full flex items-center justify-center overflow-hidden rounded-3xl shadow-2xl hover:shadow-xl duration-300 sm:inline-block"
               >
                 <img
-                  className="max-w-[400px]"
+                  className="max-w-[320px] sm:max-w-[400px]"
                   src={portfolio1}
                   alt="portfolio image"
                 />
@@ -282,10 +282,10 @@ const Home = () => {
             <div>
               <a
                 href="#"
-                className="max-h-[600px] overflow-hidden rounded-3xl shadow-2xl inline-block duration-300 hover:shadow-xl"
+                className="max-h-[600px] w-full flex items-center justify-center overflow-hidden rounded-3xl shadow-2xl hover:shadow-xl duration-300 sm:inline-block"
               >
                 <img
-                  className="max-w-[400px]"
+                  className="max-w-[320px] sm:max-w-[400px]"
                   src={portfolio1}
                   alt="portfolio image"
                 />
@@ -296,16 +296,16 @@ const Home = () => {
       </section>
       {/* my seciton */}
       <section id="mySection" className="bg-blue-100">
-        <div className="grid grid-cols-2 gap-10 p-10 px-20 pb-0">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-4 sm:p-8 sm:px-12  md:px-20 pb-0">
           <div className="max-w-[800px]">
             <h4 className="text-3xl font-medium text-[#233DFF] mb-4">
               Hi! I&apos;m
             </h4>
-            <h1 className="text-6xl font-bold">Masum Ahmed</h1>
+            <h1 className="text-4xl sm:text-6xl font-bold mb-4 sm:mb-1">Masum Ahmed</h1>
             <h4>[Founder & CEO] of DigitriIT</h4>
 
             <p className="mt-5">
-              Hello..! I’m a{" "}
+              Hello..! I’m a
               <span className="font-semibold">
                 Data-driven Digital Marketing Specialist & Social Media Manager
               </span>
@@ -316,9 +316,9 @@ const Home = () => {
               </span>
             </p>
           </div>
-          <div className="max-w-[800px] overflow-hidden flex items-start justify-end">
+          <div className="max-w-[800px] mx-auto mt-20 lg:mt-0 overflow-hidden  flex items-center lg:items-start justifycenter lg:justify-end">
             <img
-              className="-mt-36 max-w-[400px]"
+              className="sm:-mt-36 lg:max-w-[400px] sm:max-w-[400px] -mt-20 max-w-[260px]"
               src={My_Image}
               alt="my-image"
             />
@@ -332,14 +332,14 @@ const Home = () => {
           {/* heading */}
           <div className="max-w-[600px] mx-auto text-center mb-20">
             <h2 className="text-6xl font-semibold mb-5">Our Team</h2>
-            <p className="max-w-[600px]">
+            <p className="max-w-[400px] mx-auto sm:max-w-[600px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-5">
+          <div className="flex items-center justify-center flex-wrap sm:grid sm:grid-cols-2 md:grid-cols-2 md:ml-12 p-4 sm:p-8 lg:grid-cols-4 gap-5">
             {/* member1 */}
-             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
+             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-t-full md:rounded-tl-[0px] md:rounded-tr-[200px]">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -356,7 +356,7 @@ const Home = () => {
               </div>
             </div>
             {/* member2 */}
-             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
+             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-t-full md:rounded-tl-[0px] md:rounded-tr-[200px]">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -373,7 +373,7 @@ const Home = () => {
               </div>
             </div>
             {/* member3 */}
-             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
+             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-t-full md:rounded-tl-[0px] md:rounded-tr-[200px]">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -390,7 +390,7 @@ const Home = () => {
               </div>
             </div>
             {/* member4 */}
-            <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
+            <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-t-full md:rounded-tl-[0px] md:rounded-tr-[200px]">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
