@@ -10,7 +10,7 @@ const About = () => {
         <div className="bg-blue-100 rounded-2xl h-[300px] ">
           <div></div>
           <div className="flex w-full items-center justify-center h-full">
-            <h1 className="text-6xl font-semibold capitalize text-center">
+            <h1 className="text-5xl md:text-6xl font-semibold capitalize text-center">
               About Us
             </h1>
           </div>
@@ -21,18 +21,18 @@ const About = () => {
         <div>
           {/* top  */}
           <div className="flex flex-col items-center text-center max-w-[940px] mx-auto">
-            <h1 className="text-5xl font-medium mb-5 leading-snug">
+            <h1 className="text-4xl md:text-5xl font-medium mb-5 leading-snug">
               Elevate Your Online Presence with Our Expert SEO & Digital
               Strategies{" "}
             </h1>
-            <p className="px-20 mt-4">
+            <p className="px-3  lg:px-10 mt-4">
               Consectetur adipiscing elit sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Utenim minim veniam quis nostrud
               exercitation.
             </p>
           </div>
           {/* goal section */}
-          <div className="flex items-center gap-20 mt-10">
+          <div className="flex items-center flex-col px-5 gap-20 mt-10">
             {/* goal img  */}
             <div>
               <img
@@ -80,20 +80,20 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* team section  */}
+      {/* Team section */}
       <section id="team" className="my-40">
         <div>
           {/* heading */}
-          <div className="max-w-[600px] mx-auto text-center mb-20">
-            <h2 className="text-6xl font-semibold mb-5">Our Team</h2>
-            <p className="max-w-[600px]">
+          <div className="max-w-[600px] mx-auto text-center mb-20 px-4 sm:px-0">
+            <h2 className="text-5xl md:text-6xl font-semibold mb-5">Our Team</h2>
+            <p className="max-w-[400px] mx-auto sm:max-w-[600px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-5">
+          <div className="flex items-center justify-center flex-wrap sm:grid sm:grid-cols-2 md:grid-cols-2 lg:ml-0  p-5 md:p-10 lg:grid-cols-3 xl:grid-cols-4 gap-20 md:gap-5">
             {/* member1 */}
-             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
+             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -109,8 +109,8 @@ const About = () => {
                 </p>
               </div>
             </div>
-            {/* member2 */}
-             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
+            {/* member1 */}
+             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -126,8 +126,8 @@ const About = () => {
                 </p>
               </div>
             </div>
-            {/* member3 */}
-             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
+            {/* member1 */}
+             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -143,8 +143,8 @@ const About = () => {
                 </p>
               </div>
             </div>
-            {/* member4 */}
-            <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-tr-[200px]">
+            {/* member1 */}
+             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}

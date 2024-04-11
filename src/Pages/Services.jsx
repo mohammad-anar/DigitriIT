@@ -11,9 +11,9 @@ const Services = () => {
   return (
     <div>
       <section id="service_hero" className="mt-10">
-        <div className="bg-blue-100 rounded-2xl h-[50vh] flex items-center p-20 gap-40">
+        <div className="bg-blue-100 rounded-2xl h-[60vh] lg:h-[50vh] flex flex-col md:flex-row items-center p-5 md:p-20 gap-10 md:gap-20 xl:gap-40">
           <div>
-            <div className="flex items-center flex-col gap-4 justify-center mt-2 text-blue-600">
+            <div className="flex items-center md:flex-col gap-4 justify-center mt-2 text-blue-600">
               <div className="bg-white p-2 rounded-full inline-block border hover:border-white hover:bg-transparent duration-300 cursor-pointer shadow-2xl shadow-red-600">
                 <FaFacebookF size={20} />
               </div>
@@ -29,10 +29,10 @@ const Services = () => {
             </div>
           </div>
           <div className="flex flex-col  gap-5">
-            <h1 className="text-6xl font-semibold capitalize">
+            <h1 className="md:text-6xl font-semibold capitalize text-5xl">
               Our Creative Services For
             </h1>
-            <h1 className="text-6xl font-semibold capitalize">Brands grow</h1>
+            <h1 className="md:text-6xl font-semibold capitalize text-5xl">Brands grow</h1>
             {/* button */}
             <div className="relative flex items-center w-[232px] mt-5">
                 <div className="p-4 bg-[#233DFF] absolute top-0 left-0 flex items-center justify-center text-white rounded-full -mr-[55px] -rotate-45 w-[55px] h-[55px]">
@@ -57,8 +57,8 @@ const Services = () => {
           </button> */}
 
           {/* services main container */}
-          <div className="p-20 text-center pt-5">
-            <h1 className="text-5xl font-medium mb-5">
+          <div className="p-5 md:p-12 text-center pt-5">
+            <h1 className="text-4xl md:text-5xl font-medium mb-5">
               We offer the best Digital Marketing services for your Business
             </h1>
             <p>
@@ -71,7 +71,7 @@ const Services = () => {
               Professionally.
             </p>
             {/* card section ==========*/}
-            <div className="grid grid-cols-3 gap-5 mt-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
               {/* card1 */}
               <div
                 id="service-card-container"

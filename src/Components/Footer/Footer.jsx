@@ -10,7 +10,7 @@ import { FaPaperPlane } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-black text-white pt-20 rounded-t-2xl">
-      <aside className="-mt-10">
+      <aside className="-mt-10 -ml-12 ">
         <img src={footer_logo} alt="" />
         <p className="ml-12 max-w-[300px] opacity-80">
           We are here to help you with numerous types of Digital Marketing

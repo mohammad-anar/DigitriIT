@@ -16,20 +16,20 @@ const Home = () => {
   return (
     <div>
       {/* hero section */}
-      <section id="hero">
-        <div className={`h-[89vh] bg-hero-bg `}>
+      <section id="hero" className="lg:mb-20 ">
+        <div className={`h-[89vh] bg-hero-bg`}>
           <div className=" h-full w-full flex items-center">
             <div className=" max-w-[800px] px-5 sm:px-10 lg:px-16">
-              <h1 className="md:text-[80px] text-[52px] leading-[122%] font-bold max-w-[760px] font-[poppins]">
+              <h1 className="md:text-[80px] text-[52px] lg:mt-0 leading-[122%] font-bold max-w-[760px] font-[poppins]">
                 Grow Your <span className="text-[#233DFF]">Digital </span>
                 Presence with Our Experts
               </h1>
-              <p className="text-lg my-8 max-w-[680px]">
+              <p className="text-md sm:text-lg my-8 max-w-[680px]">
                 We offer tailored, end-to-end digital marketing solutions to
                 help you reach your target audience. We have helped numerous
-                clients around the world add true value to their audience.{" "}
+                clients around the world add true value to their audience.
                 <span className="font-medium">
-                  {" "}
+                  
                   Our Motive is to Work Accurately, Efficiently, and
                   Professionally.
                 </span>
@@ -54,15 +54,15 @@ const Home = () => {
       </section>
 
       {/* service section */}
-      <section id="service">
+      <section id="service" className="mt-10 sm:mt-20">
         <div className="min-h-[500px] bg-blue-100 rounded-3xl my-12 relative">
           <button className="rounded-full bg-blue-200 text-center mx-auto block px-4 py-2 border border-gray-100 relative -top-5">
             Our services
           </button>
 
           {/* services main container */}
-          <div className="p-20 text-center pt-5">
-            <h1 className="text-5xl font-medium mb-5">
+          <div className="p-5 md:p-20 text-center pt-5">
+            <h1 className="text-3xl sm:text-5xl font-medium mb-5">
               We offer the best Digital Marketing services for your Business
             </h1>
             <p>
@@ -241,7 +241,7 @@ const Home = () => {
       <section id="portfolio" className="my-20 mt-32">
         <div>
           {/* heading  */}
-          <div className="max-w-[600px] text-center mx-auto mb-8">
+          <div className="max-w-[600px] text-center mx-auto mb-8 px-4">
             <h2 className="text-5xl font-semibold">Portfolio</h2>
             <p className="mt-5">
               Explore my portfolio showcasing diverse projects, demonstrating
@@ -251,7 +251,7 @@ const Home = () => {
             <hr className="w-40% mx-auto my-5" />
           </div>
           {/* portfolio container  */}
-          <div className="flex md:grid items-center justify-center flex-wrap md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 pr-10 sm:-ml-10">
+          <div className="flex md:grid items-center justify-center flex-wrap md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 pr-10  ml-5">
             {/* portfolio1  */}
             <div>
               <a
@@ -259,33 +259,33 @@ const Home = () => {
                 className="max-h-[600px] w-full flex items-center justify-center overflow-hidden rounded-3xl shadow-2xl hover:shadow-xl duration-300 sm:inline-block"
               >
                 <img
-                  className="max-w-[320px] sm:max-w-[400px]"
+                  className="max-w-[320px] sm:max-w-[600px] md:max-w-[400px]"
                   src={portfolio1}
                   alt="portfolio image"
                 />
               </a>
             </div>
-            {/* portfolio2  */}
+            {/* portfolio1  */}
             <div>
               <a
                 href="#"
                 className="max-h-[600px] w-full flex items-center justify-center overflow-hidden rounded-3xl shadow-2xl hover:shadow-xl duration-300 sm:inline-block"
               >
                 <img
-                  className="max-w-[320px] sm:max-w-[400px]"
+                  className="max-w-[320px] sm:max-w-[600px] md:max-w-[400px]"
                   src={portfolio1}
                   alt="portfolio image"
                 />
               </a>
             </div>
-            {/* portfolio3  */}
+            {/* portfolio1  */}
             <div>
               <a
                 href="#"
                 className="max-h-[600px] w-full flex items-center justify-center overflow-hidden rounded-3xl shadow-2xl hover:shadow-xl duration-300 sm:inline-block"
               >
                 <img
-                  className="max-w-[320px] sm:max-w-[400px]"
+                  className="max-w-[320px] sm:max-w-[600px] md:max-w-[400px]"
                   src={portfolio1}
                   alt="portfolio image"
                 />
@@ -295,8 +295,8 @@ const Home = () => {
         </div>
       </section>
       {/* my seciton */}
-      <section id="mySection" className="bg-blue-100">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-4 sm:p-8 sm:px-12  md:px-20 pb-0">
+      <section id="mySection" className="bg-blue-100 overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-4 sm:p-8 sm:px-12  md:px-20 pb-0 pt-20">
           <div className="max-w-[800px]">
             <h4 className="text-3xl font-medium text-[#233DFF] mb-4">
               Hi! I&apos;m
@@ -310,15 +310,15 @@ const Home = () => {
                 Data-driven Digital Marketing Specialist & Social Media Manager
               </span>
               . Also I’m a content creator.I have helped numerous clients around
-              the world add true value to their audience.{" "}
+              the world add true value to their audience.
               <span className="font-semibold">
                 My Motive is to Work Accurately, Efficiently and Professionally.
               </span>
             </p>
           </div>
-          <div className="max-w-[800px] mx-auto mt-20 lg:mt-0 overflow-hidden  flex items-center lg:items-start justifycenter lg:justify-end">
+          <div className="max-w-[800px] mx-auto mt-5 md:mt-20 lg:mt-0 overflow-hidden sm:-mb-10  flex items-center lg:items-start justifycenter lg:justify-end">
             <img
-              className="sm:-mt-36 lg:max-w-[400px] sm:max-w-[400px] -mt-20 max-w-[260px]"
+              className="sm:-mt-36 lg:max-w-[420px] w-full sm:max-w-[450px] -mt-20 max-w-[320px]"
               src={My_Image}
               alt="my-image"
             />
@@ -330,16 +330,16 @@ const Home = () => {
       <section id="team" className="my-40">
         <div>
           {/* heading */}
-          <div className="max-w-[600px] mx-auto text-center mb-20">
-            <h2 className="text-6xl font-semibold mb-5">Our Team</h2>
+          <div className="max-w-[600px] mx-auto text-center mb-20 px-4 sm:px-0">
+            <h2 className="text-5xl md:text-6xl font-semibold mb-5">Our Team</h2>
             <p className="max-w-[400px] mx-auto sm:max-w-[600px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
           </div>
-          <div className="flex items-center justify-center flex-wrap sm:grid sm:grid-cols-2 md:grid-cols-2 md:ml-12 p-4 sm:p-8 lg:grid-cols-4 gap-5">
+          <div className="flex items-center justify-center flex-wrap sm:grid sm:grid-cols-2 md:grid-cols-2 lg:ml-0  p-5 md:p-10 lg:grid-cols-3 xl:grid-cols-4 gap-20 md:gap-5">
             {/* member1 */}
-             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-t-full md:rounded-tl-[0px] md:rounded-tr-[200px]">
+             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -355,8 +355,8 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            {/* member2 */}
-             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-t-full md:rounded-tl-[0px] md:rounded-tr-[200px]">
+            {/* member1 */}
+             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -372,8 +372,8 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            {/* member3 */}
-             <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-t-full md:rounded-tl-[0px] md:rounded-tr-[200px]">
+            {/* member1 */}
+             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -389,8 +389,8 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            {/* member4 */}
-            <div className="bg-blue-500 max-w-[350px] flex items-center justify-center flex-col p-10 rounded-t-full md:rounded-tl-[0px] md:rounded-tr-[200px]">
+            {/* member1 */}
+             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
