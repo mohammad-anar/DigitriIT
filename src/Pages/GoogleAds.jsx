@@ -1,17 +1,11 @@
-const webdesign = () => {
+const GoogleAds = () => {
   return (
     <div className="mt-24">
       {/* heading */}
       <div className="max-w-[800px] mx-auto text-center mb-20 px-4 sm:px-0">
-        <h2 className="text-5xl md:text-6xl font-semibold mb-5">
-          Facebook Advertising
-        </h2>
+        <h2 className="text-5xl md:text-6xl font-semibold mb-5">Google Ads</h2>
         <p className="max-w-[8000px] w-full mx-auto ">
-          Elevate your online visibility with our Facebook Advertising service.
-          Target your ideal audience, boost brand recognition, and drive
-          conversions. Our skilled team creates tailored ad campaigns to meet
-          your business goals effectively. Stay competitive in the digital realm
-          with our trusted Facebook Advertising solutions.
+        Maximize your online presence and generate leads with expertly crafted Google Ads campaigns.
         </p>
       </div>
       {/* service body  */}
@@ -38,46 +32,62 @@ const webdesign = () => {
         <div className="collapse collapse-plus bg-blue-100 mb-2">
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title text-xl font-medium">
-          What services does DigiGriit provide?
+            What services does DigiGriit provide?
           </div>
           <div className="collapse-content">
-            <p>DigiGriit specializes in digital marketing, offering services such as social media management, SEO, PPC advertising, and web design.</p>
+            <p>
+              DigiGriit specializes in digital marketing, offering services such
+              as social media management, SEO, PPC advertising, and web design.
+            </p>
           </div>
         </div>
         <div className="collapse collapse-plus bg-blue-100 mb-2">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
-          How long does it take to see results from SEO?
+            How long does it take to see results from SEO?
           </div>
           <div className="collapse-content">
-            <p>SEO results vary, but typically improvements can be seen within 4-6 months, with significant growth over 6-12 months.</p>
+            <p>
+              SEO results vary, but typically improvements can be seen within
+              4-6 months, with significant growth over 6-12 months.
+            </p>
           </div>
         </div>
         <div className="collapse collapse-plus bg-blue-100 mb-2">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
-          Can I customize my social media management package?
+            Can I customize my social media management package?
           </div>
           <div className="collapse-content">
-            <p>Absolutely! At DigiGriit, we tailor social media management packages to suit your specific needs and budget.</p>
+            <p>
+              Absolutely! At DigiGriit, we tailor social media management
+              packages to suit your specific needs and budget.
+            </p>
           </div>
         </div>
         <div className="collapse collapse-plus bg-blue-100 mb-2">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
-          What sets DigiGriit apart from other agencies?
+            What sets DigiGriit apart from other agencies?
           </div>
           <div className="collapse-content">
-            <p>DigiGriit stands out with its data-driven strategies, dedicated customer support, and a proven track record of delivering tangible results.</p>
+            <p>
+              DigiGriit stands out with its data-driven strategies, dedicated
+              customer support, and a proven track record of delivering tangible
+              results.
+            </p>
           </div>
         </div>
         <div className="collapse collapse-plus bg-blue-100 mb-2">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
-          How do I get started with DigiGriit&apos;s services?
+            How do I get started with DigiGriit&apos;s services?
           </div>
           <div className="collapse-content">
-            <p>Simply reach out to us via our website or email, and our team will guide you through the process of getting started with DigiGriit.</p>
+            <p>
+              Simply reach out to us via our website or email, and our team will
+              guide you through the process of getting started with DigiGriit.
+            </p>
           </div>
         </div>
       </div>
@@ -85,4 +95,4 @@ const webdesign = () => {
   );
 };
 
-export default webdesign;
+export default GoogleAds;

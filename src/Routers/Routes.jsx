@@ -6,7 +6,12 @@ import Services from "../Pages/Services";
 import Layout from "../Loyout/Layout";
 import Error from "../Pages/Error";
 import Blog from "../Pages/Blog";
-import Webdesign from "../Pages/FacebookAdvertising";
+import GoogleAds from "../Pages/GoogleAds";
+import ConversionApi from "../Pages/ConversionApi";
+import YoutubeSeo from "../Pages/YoutubeSeo";
+import Webdevelopement from "../Pages/Webdevelopment";
+import WebSeo from "../Pages/WebSeo";
+import Fbadvertisement from "../Pages/Fbadvertisement";
 
 const Routes = createBrowserRouter([
     {
@@ -36,8 +41,28 @@ const Routes = createBrowserRouter([
                 element: <Blog/>
             },
             {
-                path: "/webdesign",
-                element: <Webdesign/>
+                path: "/facebookads",
+                element: <Fbadvertisement/>
+            },
+            {
+                path: "/googleads",
+                element: <GoogleAds/>
+            },
+            {
+                path: "/conversionapi",
+                element: <ConversionApi/>
+            },
+            {
+                path: "/youtubeseo",
+                element: <YoutubeSeo/>
+            },
+            {
+                path: "/webdevelopment",
+                element: <Webdevelopement/>
+            },
+            {
+                path: "/webseo",
+                element: <WebSeo/>
             },
         ]
     }

@@ -6,7 +6,12 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa6";
-import facebook_ads_icon from "../assets/images/facebook_ads.png";
+import facebookAds from "../assets/icons/facebookads.png";
+import conversionAPI from "../assets/icons/conversionapi.png";
+import googleAds from "../assets/icons/googleads.png";
+import youtubeSEO from "../assets/icons/youtubeseo.png";
+import webdevelopemnt from "../assets/icons/webdevelopment.png";
+import webSEO from "../assets/icons/webseo.png";
 const Services = () => {
   return (
     <div>
@@ -78,25 +83,21 @@ const Services = () => {
               <a href="/webdesign">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px]  mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
-                  <div className="flex items-center gap-3 justify-center">
+                  <div className="flex items-center gap-3 justify-center mb-8">
                     <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
                       <img
                         className="w-full h-full object-cover"
-                        src={facebook_ads_icon}
+                        src={facebookAds}
                         alt="ads"
                       />
                     </div>
                     <h3 className="text-xl font-medium">Facebook Ads</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                    Are you running Facebook and Instagram ads for your
-                    business? But not getting potential traffic, link clicks,
-                    leads, or conversions? Then you’ve come to the right place!
-                    We are here to help you with the best Digital Marketing
-                    services.
+                  Reach your target audience effectively through strategic Facebook advertising campaigns tailored to your business goals.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -107,25 +108,21 @@ const Services = () => {
               <a href="/webdesign">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
-                  <div className="flex items-center gap-3 justify-center">
+                  <div className="flex items-center gap-3 justify-center mb-8">
                     <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
                       <img
                         className="w-full h-full object-cover"
-                        src={facebook_ads_icon}
+                        src={googleAds}
                         alt="ads"
                       />
                     </div>
-                    <h3 className="text-xl font-medium">Facebook Ads</h3>
+                    <h3 className="text-xl font-medium">Google Ads</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                    Are you running Facebook and Instagram ads for your
-                    business? But not getting potential traffic, link clicks,
-                    leads, or conversions? Then you’ve come to the right place!
-                    We are here to help you with the best Digital Marketing
-                    services.
+                  Maximize your online presence and generate leads with expertly crafted Google Ads campaigns.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -136,25 +133,21 @@ const Services = () => {
               <a href="/webdesign">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
-                  <div className="flex items-center gap-3 justify-center">
+                  <div className="flex items-center gap-3 justify-center mb-8">
                     <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
                       <img
                         className="w-full h-full object-cover"
-                        src={facebook_ads_icon}
+                        src={conversionAPI}
                         alt="ads"
                       />
                     </div>
-                    <h3 className="text-xl font-medium">Facebook Ads</h3>
+                    <h3 className="text-xl font-medium">Conversion API</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                    Are you running Facebook and Instagram ads for your
-                    business? But not getting potential traffic, link clicks,
-                    leads, or conversions? Then you’ve come to the right place!
-                    We are here to help you with the best Digital Marketing
-                    services.
+                  Optimize your marketing efforts with precise data, improving conversion rates and maximizing ROI.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -165,25 +158,21 @@ const Services = () => {
               <a href="/webdesign">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
-                  <div className="flex items-center gap-3 justify-center">
+                  <div className="flex items-center gap-3 justify-center mb-8">
                     <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
                       <img
                         className="w-full h-full object-cover"
-                        src={facebook_ads_icon}
+                        src={youtubeSEO}
                         alt="ads"
                       />
                     </div>
-                    <h3 className="text-xl font-medium">Facebook Ads</h3>
+                    <h3 className="text-xl font-medium">Youtube SEO</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                    Are you running Facebook and Instagram ads for your
-                    business? But not getting potential traffic, link clicks,
-                    leads, or conversions? Then you’ve come to the right place!
-                    We are here to help you with the best Digital Marketing
-                    services.
+                  Enhance your YouTube presence and increase visibility with proven SEO strategies tailored to your content.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -194,25 +183,21 @@ const Services = () => {
               <a href="/webdesign">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
-                  <div className="flex items-center gap-3 justify-center">
+                  <div className="flex items-center gap-3 justify-center mb-8">
                     <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
                       <img
                         className="w-full h-full object-cover"
-                        src={facebook_ads_icon}
+                        src={webdevelopemnt}
                         alt="ads"
                       />
                     </div>
-                    <h3 className="text-xl font-medium">Facebook Ads</h3>
+                    <h3 className="text-xl font-medium">Web Development</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                    Are you running Facebook and Instagram ads for your
-                    business? But not getting potential traffic, link clicks,
-                    leads, or conversions? Then you’ve come to the right place!
-                    We are here to help you with the best Digital Marketing
-                    services.
+                  Build a responsive, user-friendly website optimized for conversions and enhanced user experience.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -223,25 +208,21 @@ const Services = () => {
               <a href="/webdesign">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
-                  <div className="flex items-center gap-3 justify-center">
+                  <div className="flex items-center gap-3 justify-center mb-8">
                     <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
                       <img
                         className="w-full h-full object-cover"
-                        src={facebook_ads_icon}
+                        src={webSEO}
                         alt="ads"
                       />
                     </div>
-                    <h3 className="text-xl font-medium">Facebook Ads</h3>
+                    <h3 className="text-xl font-medium">Web SEO</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                    Are you running Facebook and Instagram ads for your
-                    business? But not getting potential traffic, link clicks,
-                    leads, or conversions? Then you’ve come to the right place!
-                    We are here to help you with the best Digital Marketing
-                    services.
+                  Boost your website&apos;s visibility and attract organic traffic through expert search engine optimization techniques.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now

@@ -69,6 +69,54 @@ const Navbar = () => {
                       Facebook Ads
                     </NavLink>
                     <NavLink
+                      to="/googleads"
+                      className={({ isActive, isPending }) =>
+                        isPending
+                          ? "pending"
+                          : isActive
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                      }
+                    >
+                      Google Ads
+                    </NavLink>
+                    <NavLink
+                      to="/conversionapi"
+                      className={({ isActive, isPending }) =>
+                        isPending
+                          ? "pending"
+                          : isActive
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                      }
+                    >
+                      Conversion API
+                    </NavLink>
+                    <NavLink
+                      to="/youtubeseo"
+                      className={({ isActive, isPending }) =>
+                        isPending
+                          ? "pending"
+                          : isActive
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                      }
+                    >
+                      Youtube SEO
+                    </NavLink>
+                    <NavLink
+                      to="/webdevelopment"
+                      className={({ isActive, isPending }) =>
+                        isPending
+                          ? "pending"
+                          : isActive
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                      }
+                    >
+                     Web Development
+                    </NavLink>
+                    <NavLink
                       to="/webseo"
                       className={({ isActive, isPending }) =>
                         isPending
@@ -78,55 +126,7 @@ const Navbar = () => {
                           : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
-                      Website SEO
-                    </NavLink>
-                    <NavLink
-                      to="/youtubemarketing"
-                      className={({ isActive, isPending }) =>
-                        isPending
-                          ? "pending"
-                          : isActive
-                          ? "text-blue-500 text-sm font-medium"
-                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
-                      }
-                    >
-                      YouTube Marketing
-                    </NavLink>
-                    <NavLink
-                      to="/seoservices"
-                      className={({ isActive, isPending }) =>
-                        isPending
-                          ? "pending"
-                          : isActive
-                          ? "text-blue-500 text-sm font-medium"
-                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
-                      }
-                    >
-                      SEO Services
-                    </NavLink>
-                    <NavLink
-                      to="/seoservices"
-                      className={({ isActive, isPending }) =>
-                        isPending
-                          ? "pending"
-                          : isActive
-                          ? "text-blue-500 text-sm font-medium"
-                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
-                      }
-                    >
-                      SEO Services
-                    </NavLink>
-                    <NavLink
-                      to="/seoservices"
-                      className={({ isActive, isPending }) =>
-                        isPending
-                          ? "pending"
-                          : isActive
-                          ? "text-blue-500 text-sm font-medium"
-                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
-                      }
-                    >
-                      SEO Services
+                      Web SEO
                     </NavLink>
                   </ul>
                 </div>
@@ -225,11 +225,59 @@ const Navbar = () => {
                         isPending
                           ? "pending"
                           : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
                       Facebook Ads
+                    </NavLink>
+                    <NavLink
+                      to="/googleads"
+                      className={({ isActive, isPending }) =>
+                        isPending
+                          ? "pending"
+                          : isActive
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                      }
+                    >
+                      Google Ads
+                    </NavLink>
+                    <NavLink
+                      to="/conversionapi"
+                      className={({ isActive, isPending }) =>
+                        isPending
+                          ? "pending"
+                          : isActive
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                      }
+                    >
+                      Conversion API
+                    </NavLink>
+                    <NavLink
+                      to="/youtubeseo"
+                      className={({ isActive, isPending }) =>
+                        isPending
+                          ? "pending"
+                          : isActive
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                      }
+                    >
+                      Youtube SEO
+                    </NavLink>
+                    <NavLink
+                      to="/webdevelopment"
+                      className={({ isActive, isPending }) =>
+                        isPending
+                          ? "pending"
+                          : isActive
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                      }
+                    >
+                     Web Development
                     </NavLink>
                     <NavLink
                       to="/webseo"
@@ -237,59 +285,11 @@ const Navbar = () => {
                         isPending
                           ? "pending"
                           : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
-                      Website SEO
-                    </NavLink>
-                    <NavLink
-                      to="/youtubemarketing"
-                      className={({ isActive, isPending }) =>
-                        isPending
-                          ? "pending"
-                          : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
-                      }
-                    >
-                      YouTube Marketing
-                    </NavLink>
-                    <NavLink
-                      to="/seoservices"
-                      className={({ isActive, isPending }) =>
-                        isPending
-                          ? "pending"
-                          : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
-                      }
-                    >
-                      SEO Services
-                    </NavLink>
-                    <NavLink
-                      to="/seoservices"
-                      className={({ isActive, isPending }) =>
-                        isPending
-                          ? "pending"
-                          : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
-                      }
-                    >
-                      SEO Services
-                    </NavLink>
-                    <NavLink
-                      to="/seoservices"
-                      className={({ isActive, isPending }) =>
-                        isPending
-                          ? "pending"
-                          : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
-                      }
-                    >
-                      SEO Services
+                      Web SEO
                     </NavLink>
                   </ul>
                 </div>
