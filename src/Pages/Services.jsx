@@ -1,5 +1,5 @@
 import {
-    FaArrowRight,
+  FaArrowRight,
   FaArrowRightLong,
   FaFacebookF,
   FaInstagram,
@@ -32,20 +32,22 @@ const Services = () => {
             <h1 className="md:text-6xl font-semibold capitalize text-5xl">
               Our Creative Services For
             </h1>
-            <h1 className="md:text-6xl font-semibold capitalize text-5xl">Brands grow</h1>
+            <h1 className="md:text-6xl font-semibold capitalize text-5xl">
+              Brands grow
+            </h1>
             {/* button */}
             <div className="relative flex items-center w-[232px] mt-5">
-                <div className="p-4 bg-[#233DFF] absolute top-0 left-0 flex items-center justify-center text-white rounded-full -mr-[55px] -rotate-45 w-[55px] h-[55px]">
-                  <FaArrowRight />
-                </div>
-                <a className="btn rounded-full px-6 py-3 text-lg bg-[#233DFF] h-[55px] text-white border-none hover:ml-[55px] transition-all duration-300 hover:bg-[#233DFF] relative z-10 capitalize">
-                  Learn more
-                  <FaArrowRightLong />
-                </a>
-                <div className=" p-4 bg-[#233DFF] absolute top-0 right-0 flex items-center justify-center text-white rounded-full -rotate-45 w-[55px] h-[55px]">
-                  <FaArrowRight />
-                </div>
+              <div className="p-4 bg-[#233DFF] absolute top-0 left-0 flex items-center justify-center text-white rounded-full -mr-[55px] -rotate-45 w-[55px] h-[55px]">
+                <FaArrowRight />
               </div>
+              <a className="btn rounded-full px-6 py-3 text-lg bg-[#233DFF] h-[55px] text-white border-none hover:ml-[55px] transition-all duration-300 hover:bg-[#233DFF] relative z-10 capitalize">
+                Learn more
+                <FaArrowRightLong />
+              </a>
+              <div className=" p-4 bg-[#233DFF] absolute top-0 right-0 flex items-center justify-center text-white rounded-full -rotate-45 w-[55px] h-[55px]">
+                <FaArrowRight />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -71,163 +73,181 @@ const Services = () => {
               Professionally.
             </p>
             {/* card section ==========*/}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 lg:mt-10">
               {/* card1 */}
-              <div
-                id="service-card-container"
-                className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl"
-              >
-                {/* icon and title  */}
-                <div className="flex items-center gap-3 justify-center">
-                  <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
-                    <img
-                      className="w-full h-full object-cover"
-                      src={facebook_ads_icon}
-                      alt="ads"
-                    />
+              <a href="/webdesign">
+                <div
+                  id="service-card-container"
+                  className="max-w-[350px]  mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                >
+                  {/* icon and title  */}
+                  <div className="flex items-center gap-3 justify-center">
+                    <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
+                      <img
+                        className="w-full h-full object-cover"
+                        src={facebook_ads_icon}
+                        alt="ads"
+                      />
+                    </div>
+                    <h3 className="text-xl font-medium">Facebook Ads</h3>
                   </div>
-                  <h3 className="text-xl font-medium">Facebook Ads</h3>
+                  <p className="my-5 mt-2 text-justify">
+                    Are you running Facebook and Instagram ads for your
+                    business? But not getting potential traffic, link clicks,
+                    leads, or conversions? Then you’ve come to the right place!
+                    We are here to help you with the best Digital Marketing
+                    services.
+                  </p>
+                  <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
+                    Book Now
+                  </button>
                 </div>
-                <p className="my-5 mt-2 text-justify">
-                  Are you running Facebook and Instagram ads for your business?
-                  But not getting potential traffic, link clicks, leads, or
-                  conversions? Then you’ve come to the right place! We are here
-                  to help you with the best Digital Marketing services.
-                </p>
-                <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
-                  Book Now
-                </button>
-              </div>
+              </a>
               {/* card2 */}
-              <div
-                id="service-card-container"
-                className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl"
-              >
-                {/* icon and title  */}
-                <div className="flex items-center gap-3 justify-center">
-                  <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
-                    <img
-                      className="w-full h-full object-cover"
-                      src={facebook_ads_icon}
-                      alt="ads"
-                    />
+              <a href="/webdesign">
+                <div
+                  id="service-card-container"
+                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                >
+                  {/* icon and title  */}
+                  <div className="flex items-center gap-3 justify-center">
+                    <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
+                      <img
+                        className="w-full h-full object-cover"
+                        src={facebook_ads_icon}
+                        alt="ads"
+                      />
+                    </div>
+                    <h3 className="text-xl font-medium">Facebook Ads</h3>
                   </div>
-                  <h3 className="text-xl font-medium">Facebook Ads</h3>
+                  <p className="my-5 mt-2 text-justify">
+                    Are you running Facebook and Instagram ads for your
+                    business? But not getting potential traffic, link clicks,
+                    leads, or conversions? Then you’ve come to the right place!
+                    We are here to help you with the best Digital Marketing
+                    services.
+                  </p>
+                  <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
+                    Book Now
+                  </button>
                 </div>
-                <p className="my-5 mt-2 text-justify">
-                  Are you running Facebook and Instagram ads for your business?
-                  But not getting potential traffic, link clicks, leads, or
-                  conversions? Then you’ve come to the right place! We are here
-                  to help you with the best Digital Marketing services.
-                </p>
-                <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
-                  Book Now
-                </button>
-              </div>
+              </a>
               {/* card3 */}
-              <div
-                id="service-card-container"
-                className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl"
-              >
-                {/* icon and title  */}
-                <div className="flex items-center gap-3 justify-center">
-                  <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
-                    <img
-                      className="w-full h-full object-cover"
-                      src={facebook_ads_icon}
-                      alt="ads"
-                    />
+              <a href="/webdesign">
+                <div
+                  id="service-card-container"
+                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                >
+                  {/* icon and title  */}
+                  <div className="flex items-center gap-3 justify-center">
+                    <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
+                      <img
+                        className="w-full h-full object-cover"
+                        src={facebook_ads_icon}
+                        alt="ads"
+                      />
+                    </div>
+                    <h3 className="text-xl font-medium">Facebook Ads</h3>
                   </div>
-                  <h3 className="text-xl font-medium">Facebook Ads</h3>
+                  <p className="my-5 mt-2 text-justify">
+                    Are you running Facebook and Instagram ads for your
+                    business? But not getting potential traffic, link clicks,
+                    leads, or conversions? Then you’ve come to the right place!
+                    We are here to help you with the best Digital Marketing
+                    services.
+                  </p>
+                  <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
+                    Book Now
+                  </button>
                 </div>
-                <p className="my-5 mt-2 text-justify">
-                  Are you running Facebook and Instagram ads for your business?
-                  But not getting potential traffic, link clicks, leads, or
-                  conversions? Then you’ve come to the right place! We are here
-                  to help you with the best Digital Marketing services.
-                </p>
-                <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
-                  Book Now
-                </button>
-              </div>
+              </a>
               {/* card4 */}
-              <div
-                id="service-card-container"
-                className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl"
-              >
-                {/* icon and title  */}
-                <div className="flex items-center gap-3 justify-center">
-                  <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
-                    <img
-                      className="w-full h-full object-cover"
-                      src={facebook_ads_icon}
-                      alt="ads"
-                    />
+              <a href="/webdesign">
+                <div
+                  id="service-card-container"
+                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                >
+                  {/* icon and title  */}
+                  <div className="flex items-center gap-3 justify-center">
+                    <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
+                      <img
+                        className="w-full h-full object-cover"
+                        src={facebook_ads_icon}
+                        alt="ads"
+                      />
+                    </div>
+                    <h3 className="text-xl font-medium">Facebook Ads</h3>
                   </div>
-                  <h3 className="text-xl font-medium">Facebook Ads</h3>
+                  <p className="my-5 mt-2 text-justify">
+                    Are you running Facebook and Instagram ads for your
+                    business? But not getting potential traffic, link clicks,
+                    leads, or conversions? Then you’ve come to the right place!
+                    We are here to help you with the best Digital Marketing
+                    services.
+                  </p>
+                  <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
+                    Book Now
+                  </button>
                 </div>
-                <p className="my-5 mt-2 text-justify">
-                  Are you running Facebook and Instagram ads for your business?
-                  But not getting potential traffic, link clicks, leads, or
-                  conversions? Then you’ve come to the right place! We are here
-                  to help you with the best Digital Marketing services.
-                </p>
-                <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
-                  Book Now
-                </button>
-              </div>
+              </a>
               {/* card5 */}
-              <div
-                id="service-card-container"
-                className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl"
-              >
-                {/* icon and title  */}
-                <div className="flex items-center gap-3 justify-center">
-                  <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
-                    <img
-                      className="w-full h-full object-cover"
-                      src={facebook_ads_icon}
-                      alt="ads"
-                    />
+              <a href="/webdesign">
+                <div
+                  id="service-card-container"
+                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                >
+                  {/* icon and title  */}
+                  <div className="flex items-center gap-3 justify-center">
+                    <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
+                      <img
+                        className="w-full h-full object-cover"
+                        src={facebook_ads_icon}
+                        alt="ads"
+                      />
+                    </div>
+                    <h3 className="text-xl font-medium">Facebook Ads</h3>
                   </div>
-                  <h3 className="text-xl font-medium">Facebook Ads</h3>
+                  <p className="my-5 mt-2 text-justify">
+                    Are you running Facebook and Instagram ads for your
+                    business? But not getting potential traffic, link clicks,
+                    leads, or conversions? Then you’ve come to the right place!
+                    We are here to help you with the best Digital Marketing
+                    services.
+                  </p>
+                  <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
+                    Book Now
+                  </button>
                 </div>
-                <p className="my-5 mt-2 text-justify">
-                  Are you running Facebook and Instagram ads for your business?
-                  But not getting potential traffic, link clicks, leads, or
-                  conversions? Then you’ve come to the right place! We are here
-                  to help you with the best Digital Marketing services.
-                </p>
-                <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
-                  Book Now
-                </button>
-              </div>
+              </a>
               {/* card6 */}
-              <div
-                id="service-card-container"
-                className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl"
-              >
-                {/* icon and title  */}
-                <div className="flex items-center gap-3 justify-center">
-                  <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
-                    <img
-                      className="w-full h-full object-cover"
-                      src={facebook_ads_icon}
-                      alt="ads"
-                    />
+              <a href="/webdesign">
+                <div
+                  id="service-card-container"
+                  className="max-w-[350px] mx-auto p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                >
+                  {/* icon and title  */}
+                  <div className="flex items-center gap-3 justify-center">
+                    <div className="w-12 h-12 object-cover p-2 rounded-full bg-gray-100 bg-opacity-50 border border-blue-300">
+                      <img
+                        className="w-full h-full object-cover"
+                        src={facebook_ads_icon}
+                        alt="ads"
+                      />
+                    </div>
+                    <h3 className="text-xl font-medium">Facebook Ads</h3>
                   </div>
-                  <h3 className="text-xl font-medium">Facebook Ads</h3>
+                  <p className="my-5 mt-2 text-justify">
+                    Are you running Facebook and Instagram ads for your
+                    business? But not getting potential traffic, link clicks,
+                    leads, or conversions? Then you’ve come to the right place!
+                    We are here to help you with the best Digital Marketing
+                    services.
+                  </p>
+                  <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
+                    Book Now
+                  </button>
                 </div>
-                <p className="my-5 mt-2 text-justify">
-                  Are you running Facebook and Instagram ads for your business?
-                  But not getting potential traffic, link clicks, leads, or
-                  conversions? Then you’ve come to the right place! We are here
-                  to help you with the best Digital Marketing services.
-                </p>
-                <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
-                  Book Now
-                </button>
-              </div>
+              </a>
             </div>
           </div>
         </div>

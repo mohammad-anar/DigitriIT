@@ -6,8 +6,8 @@ import { RiMenu2Line } from "react-icons/ri";
 
 const Navbar = () => {
   return (
-    <div className="max-h-[102px]">
-      <div className="navbar bg-white border-b border-slate-200 mr-5 lg:px-5 ">
+    <div className="max-h-[60px]">
+      <div className="navbar bg-white border-b border-slate-200 mr-5 lg:px-5 max-h-[80px]">
         <div className="navbar-start max-w-[200px]">
           <div className="dropdown">
             <div
@@ -28,8 +28,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-blue-500 text-lg font-medium"
-                      : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-300"
+                      ? "text-blue-500 text-sm font-medium"
+                      : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-300"
                   }
                 >
                   Home
@@ -44,8 +44,8 @@ const Navbar = () => {
                         isPending
                           ? "pending"
                           : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-300"
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-300"
                       }
                     >
                       Services
@@ -62,8 +62,8 @@ const Navbar = () => {
                         isPending
                           ? "pending"
                           : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
                       Facebook Ads
@@ -74,8 +74,8 @@ const Navbar = () => {
                         isPending
                           ? "pending"
                           : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
                       Website SEO
@@ -86,8 +86,8 @@ const Navbar = () => {
                         isPending
                           ? "pending"
                           : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
                       YouTube Marketing
@@ -98,8 +98,8 @@ const Navbar = () => {
                         isPending
                           ? "pending"
                           : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
                       SEO Services
@@ -110,8 +110,8 @@ const Navbar = () => {
                         isPending
                           ? "pending"
                           : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
                       SEO Services
@@ -122,8 +122,8 @@ const Navbar = () => {
                         isPending
                           ? "pending"
                           : isActive
-                          ? "text-blue-500 text-lg font-medium"
-                          : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
+                          ? "text-blue-500 text-sm font-medium"
+                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
                       SEO Services
@@ -138,8 +138,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-blue-500 text-lg font-medium"
-                      : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-300"
+                      ? "text-blue-500 text-sm font-medium"
+                      : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-300"
                   }
                 >
                   Blog
@@ -152,8 +152,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-blue-500 text-lg font-medium"
-                      : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-300"
+                      ? "text-blue-500 text-sm font-medium"
+                      : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-300"
                   }
                 >
                   About
@@ -165,8 +165,8 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-blue-500 text-lg font-medium"
-                    : "text-[#2e2e2e] text-lg font-medium hover:text-blue-600 duration-300"
+                    ? "text-blue-500 text-sm font-medium"
+                    : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-300"
                 }
               >
                 Contact
@@ -174,13 +174,13 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="hidden lg:block">
-            <img className="w-48 -ml-6" src={logo} alt="Logo" />
+            <img className="w-[180px] -ml-6" src={logo} alt="Logo" />
           </div>
         </div>
 
         <div className="navbar-end flex-1">
           <div className="navbar-center lg:hidden hidden sm:block absolute -top-5 left-1/2 -translate-x-1/2">
-            <img className="w-48 -ml-6" src={logo} alt="Logo" />
+            <img className="w-[180px] -ml-6" src={logo} alt="Logo" />
           </div>
           <ul className="menu menu-horizontal text-[#2e2e2e] px-1 hidden lg:flex gap-5">
             <div>
@@ -191,8 +191,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "text-blue-500 text-lg font-medium border-b-2 border-blue-600 pb-px"
-                      : "text-[#2e2e2e] text-lg font-medium"
+                      ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
+                      : "text-[#2e2e2e] text-sm font-medium"
                   }
                 >
                   Home
@@ -206,8 +206,8 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-blue-500 text-lg font-medium border-b-2 border-blue-600 pb-px"
-                    : "text-[#2e2e2e] text-lg font-medium"
+                     ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
+                      : "text-[#2e2e2e] text-sm font-medium"
                 }
               >
                 <div className="dropdown dropdown-hover">
@@ -302,8 +302,8 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-blue-500 text-lg font-medium border-b-2 border-blue-600 pb-px"
-                    : "text-[#2e2e2e] text-lg font-medium"
+                     ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
+                      : "text-[#2e2e2e] text-sm font-medium"
                 }
               >
                 Blog
@@ -316,8 +316,8 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-blue-500 text-lg font-medium border-b-2 border-blue-600 pb-px"
-                    : "text-[#2e2e2e] text-lg font-medium"
+                     ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
+                      : "text-[#2e2e2e] text-sm font-medium"
                 }
               >
                 About
@@ -330,8 +330,8 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-blue-500 text-lg font-medium border-b-2 border-blue-600 pb-px"
-                    : "text-[#2e2e2e] text-lg font-medium"
+                     ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
+                      : "text-[#2e2e2e] text-sm font-medium"
                 }
               >
                 Contact
@@ -343,7 +343,7 @@ const Navbar = () => {
               <FaArrowRight />
             </div>
             <div className=" btn btn-sm w-full max-w-[160px] items-center text-sm flex-nowrap rounded-full px-6 py-3 bg-[#233DFF] h-[40px] text-white border-none sm:hover:ml-[39px] transition-all duration-300 hover:bg-[#233DFF] relative z-10 ">
-              <a>Contact Us</a>
+              <a className="text-sm">Contact Us</a>
               <div>
                 <IoLogoWhatsapp />
               </div>

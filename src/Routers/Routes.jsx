@@ -6,6 +6,7 @@ import Services from "../Pages/Services";
 import Layout from "../Loyout/Layout";
 import Error from "../Pages/Error";
 import Blog from "../Pages/Blog";
+import Webdesign from "../Pages/FacebookAdvertising";
 
 const Routes = createBrowserRouter([
     {
@@ -27,11 +28,16 @@ const Routes = createBrowserRouter([
             },
             {
                 path: "/services",
-                element: <Services/>
+                element: <Services/>,
+                
             },
             {
                 path: "/blog",
                 element: <Blog/>
+            },
+            {
+                path: "/webdesign",
+                element: <Webdesign/>
             },
         ]
     }

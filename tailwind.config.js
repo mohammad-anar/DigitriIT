@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-bg': "url('./src/assets/images/hero-bg.png')",
+        'hero-bg': "url('https://www.webfx.com/wp-content/uploads/2023/08/12_what_is_a_marketing_agency-1024x462.png')",
       }
     }
   },
