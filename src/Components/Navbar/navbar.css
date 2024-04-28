@@ -1,3 +1,8 @@
-#nav-contact-button:hover {
-    margin-right: -36px;
+
+
+#services-sidebar-link #service-dropdown {
+    display: none;
+}
+#services-sidebar-link:hover #service-dropdown {
+    display: block;
 }

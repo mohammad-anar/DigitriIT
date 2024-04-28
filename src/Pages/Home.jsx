@@ -2,13 +2,16 @@ import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import My_Image from "../assets/images/Masum Ahmed.png";
 import member1 from "../assets/images/Masum Ahmed.png";
-import RoundedText from "../assets/circlttext.png";
+// import RoundedText from "../assets/circlttext.png";
 import facebookAds from "../assets/icons/facebookads.png";
 import conversionAPI from "../assets/icons/conversionapi.png";
 import googleAds from "../assets/icons/googleads.png";
 import youtubeSEO from "../assets/icons/youtubeseo.png";
 import webdevelopemnt from "../assets/icons/webdevelopment.png";
 import webSEO from "../assets/icons/webseo.png";
+import Lottie from "lottie-react";
+import heroAnim from "../assets/hero-lottie.json";
+import member2 from "../assets/my-image1.png";
 
 import "../Components/Home/animation.css";
 import { FaFacebookF } from "react-icons/fa";
@@ -36,9 +39,9 @@ const Home = () => {
     <div>
       {/* hero section */}
       <section id="hero" className="lg:mb-20 pt-[100px] lg:pt-0">
-        <div className={`h-[89vh] `}>
+        <div className={`h-[100vh] `}>
           <div className=" lg:h-full w-full flex flex-col lg:flex-row items-center">
-            <div className=" max-w-[800px] px-5 md:px-10 lg:px-16 w-[100%] xl:w-[60%]">
+            <div className=" max-w-[800px] px-5 md:px-10 lg:px-16 w-[100%] xl:w-[60%] relative z-20">
               <h1 className="md:text-[72px] text-[36px] lg:mt-0 leading-[122%] font-bold max-w-[760px] font-[poppins]">
                 Grow Your <span className="text-[#233DFF]">Digital </span>
                 Presence with Our Experts
@@ -67,22 +70,25 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[100%] lg:w-[40%] h-full flex items-end justify-end lg:justify-center lg:items-center xl:items-end xl:justify-end">
-              <img id="circle-text" className="w-[80%] mx-auto mt-6 mb:mt-10 max-w-[400px]" src={RoundedText} alt="banner image" />
+            <div className="w-[100%] md:min-w-[400px] xl:max-w-[40%] sm:w-[60%] md:w-[70%] mt-[100px]  xl:ml-0 h-full lg:-mt-[120px] xl:-mt-[350px] flex items-end justify-end lg:justify-center lg:items-center xl:items-end xl:justify-end">
+              <Lottie animationData={heroAnim} loop={true} />
             </div>
           </div>
         </div>
       </section>
 
       {/* service section */}
-      <section id="service" className="mt-20 sm:mt-[320px] md:mt-[600px] lg:mt-[10px]">
-        <div className="min-h-[500px] bg-blue-100 rounded-3xl my-12 relative">
+      <section
+        id="service"
+        className="mt-[200px] sm:mt-[320px] md:mt-[600px] lg:mt-[10px]"
+      >
+        <div className="min-h-[500px] bg-blue-100 rounded-3xl mb-12 relative">
           <button className="rounded-full bg-blue-200 text-center mx-auto block px-4 py-2 border border-gray-100 relative -top-5">
             Our services
           </button>
 
           {/* services main container */}
-          <div className="p-5 md:p-20 text-center pt-5">
+          <div className="p-5 md:p-20 text-center pt-5 md:pt-5">
             <h1 className="text-3xl sm:text-5xl font-medium mb-5 leading-[150%]">
               We offer the best Digital Marketing services for your Business
             </h1>
@@ -96,12 +102,12 @@ const Home = () => {
               Professionally.
             </p>
             {/* card section ==========*/}
-            <div className="sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 flex flex-wrap w-full justify-center items-center">
+            <div className="sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 flex flex-wrap w-full justify-stretch items-stretch">
               {/* card1 */}
-              <a href="/webdesign">
+              <a href="/webdesign" className="h-full">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-white rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
                   <div className="flex items-center gap-3 justify-center mb-8">
@@ -115,7 +121,9 @@ const Home = () => {
                     <h3 className="text-xl font-medium">Facebook Ads</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                  Reach your target audience effectively through strategic Facebook advertising campaigns tailored to your business goals.
+                    Reach your target audience effectively through strategic
+                    Facebook advertising campaigns tailored to your business
+                    goals.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -123,10 +131,10 @@ const Home = () => {
                 </div>
               </a>
               {/* card2 */}
-              <a href="/webdesign">
+              <a href="/webdesign" className="h-full">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-white rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
                   <div className="flex items-center gap-3 justify-center mb-8">
@@ -140,7 +148,8 @@ const Home = () => {
                     <h3 className="text-xl font-medium">Google Ads</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                  Maximize your online presence and generate leads with expertly crafted Google Ads campaigns.
+                    Maximize your online presence and generate leads with
+                    expertly crafted Google Ads campaigns.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -148,10 +157,10 @@ const Home = () => {
                 </div>
               </a>
               {/* card3 */}
-              <a href="/webdesign">
+              <a href="/webdesign" className="h-full">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-white rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
                   <div className="flex items-center gap-3 justify-center mb-8">
@@ -165,7 +174,8 @@ const Home = () => {
                     <h3 className="text-xl font-medium">Conversion API</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                  Optimize your marketing efforts with precise data, improving conversion rates and maximizing ROI.
+                    Optimize your marketing efforts with precise data, improving
+                    conversion rates and maximizing ROI.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -173,10 +183,10 @@ const Home = () => {
                 </div>
               </a>
               {/* card4 */}
-              <a href="/webdesign">
+              <a href="/webdesign" className="h-full">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-white rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
                   <div className="flex items-center gap-3 justify-center mb-8">
@@ -190,7 +200,8 @@ const Home = () => {
                     <h3 className="text-xl font-medium">Youtube SEO</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                  Enhance your YouTube presence and increase visibility with proven SEO strategies tailored to your content.
+                    Enhance your YouTube presence and increase visibility with
+                    proven SEO strategies tailored to your content.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -198,10 +209,10 @@ const Home = () => {
                 </div>
               </a>
               {/* card5 */}
-              <a href="/webdesign">
+              <a href="/webdesign" className="h-full">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-white rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
                   <div className="flex items-center gap-3 justify-center mb-8">
@@ -215,7 +226,8 @@ const Home = () => {
                     <h3 className="text-xl font-medium">Web Development</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                  Build a responsive, user-friendly website optimized for conversions and enhanced user experience.
+                    Build a responsive, user-friendly website optimized for
+                    conversions and enhanced user experience.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -223,10 +235,10 @@ const Home = () => {
                 </div>
               </a>
               {/* card6 */}
-              <a href="/webdesign">
+              <a href="/webdesign" className="h-full">
                 <div
                   id="service-card-container"
-                  className="max-w-[350px] p-6 pt-8 bg-blue-100 rounded-xl hover:shadow-lg hover:scale-105 duration-300"
+                  className="max-w-[350px] p-6 pt-8 bg-white rounded-xl hover:shadow-lg hover:scale-105 duration-300"
                 >
                   {/* icon and title  */}
                   <div className="flex items-center gap-3 justify-center mb-8">
@@ -240,7 +252,9 @@ const Home = () => {
                     <h3 className="text-xl font-medium">Web SEO</h3>
                   </div>
                   <p className="my-5 mt-2 text-justify">
-                  Boost your website&apos;s visibility and attract organic traffic through expert search engine optimization techniques.
+                    Boost your website&apos;s visibility and attract organic
+                    traffic through expert search engine optimization
+                    techniques.
                   </p>
                   <button className="btn btn-primary rounded-full px-6 bg-[#233DFF] text-white w-full">
                     Book Now
@@ -287,25 +301,25 @@ const Home = () => {
             >
               <SwiperSlide className="flex items-center justify-center">
                 <img
-                  className="w-[80%] mx-auto max-h-[600px]"
+                  className="w-[70%] mx-auto max-h-[600px]"
                   src="https://149842030.v2.pressablecdn.com/wp-content/uploads/2020/10/my-portfolio-responsive-mockup.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  className="w-[80%] mx-auto max-h-[600px]"
+                  className="w-[70%] mx-auto max-h-[600px]"
                   src="https://teamonedigital.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-19-at-4.48.07-PM-1024x524.png"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  className="w-[80%] mx-auto max-h-[600px]"
+                  className="w-[70%] mx-auto max-h-[600px]"
                   src="https://creativekigen.com/wp-content/uploads/2024/01/Qananu-Africa.png?lm=659BE564"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  className="w-[80%] mx-auto max-h-[600px]"
+                  className="w-[70%] mx-auto max-h-[600px]"
                   src="https://designshack.net/wp-content/uploads/how-to-customize-a-website-mockup-template.jpg"
                 />
               </SwiperSlide>
@@ -319,7 +333,7 @@ const Home = () => {
         className="bg-blue-100 overflow-hidden lg:mt-[100px] rounded-2xl"
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-4 sm:p-8 sm:px-12  md:px-20 pb-0 pt-20">
-          <div className="max-w-[800px]">
+          <div className="max-w-[800px] md:flex md:flex-col md:justify-center">
             <h4 className="text-3xl font-medium text-[#233DFF] mb-4">
               Hi! I&apos;m
             </h4>
@@ -363,50 +377,13 @@ const Home = () => {
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-            {/* member1 */}
-            <div className=" mx-auto max-w-[400px] border flex items-center justify-center flex-col p-5 hover:shadow-xl bg-white duration-300">
-              <img
-                className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
-                src={member1}
-                alt="member1"
-              />
-              <div className="mt-5 text-center  flex flex-col h-full items-center justify-between">
-                <h4 className="text-blue-600  text-2xl font-bold">
-                  Masum Ahmed
-                </h4>
-                <h5 className="text-md text-blue-600 font-medium mb-5 ">
-                  Digital Marketer
-                </h5>
-                <p className="text-gray-500  opacity-85">
-                  Hello..! I’m a Data-driven Digital Marketing Specialist &
-                  Social Media Manager.
-                </p>
-                <div className="flex items-center gap-5 mt-10">
-                  <div>
-                    <FaFacebookF size={20} className="hover:text-blue-600 duration-300" />
-                  </div>
-                  <div>
-                    <FaInstagram size={20} className="hover:text-blue-600 duration-300"  />
-                  </div>
-                  <div>
-                    <FaTwitter size={20} className="hover:text-blue-600 duration-300"  />
-                  </div>
-                  <div>
-                    <FaLinkedinIn size={20} className="hover:text-blue-600 duration-300"  />
-                  </div>
-                </div>
-                <div className="mt-10 hover:bg-blue-600 p-3 rounded-full duration-300 text-blue-600 hover:text-white cursor-pointer">
-                  <FaLongArrowAltRight  size={25}/>
-                </div>
-              </div>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {/* member2 */}
-            <div className=" mx-auto max-w-[400px] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
+            <div className=" mx-auto max-w-[95%] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
-                src={member1}
-                alt="member1"
+                src={member2}
+                alt="member2"
               />
               <div className="mt-5 text-center  flex flex-col h-full items-center justify-between">
                 <h4 className="text-blue-600  text-2xl font-bold">
@@ -416,38 +393,49 @@ const Home = () => {
                   Web Developer
                 </h5>
                 <p className="text-gray-500  opacity-85">
-                  Hello..! I’m a Web Developer. I can create and website on MERN Stack, Wordpress and webflow.
+                  Hello..! I’m a Web Developer. I can create and website on MERN
+                  Stack, Wordpress and webflow.
                 </p>
                 <div className="flex items-center gap-5 mt-10">
                   <div>
-                    <FaFacebookF size={20} className="hover:text-blue-600 duration-300" />
+                    <FaFacebookF
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                   <div>
-                    <FaInstagram size={20} className="hover:text-blue-600 duration-300"  />
+                    <FaInstagram
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                   <div>
-                    <FaTwitter size={20} className="hover:text-blue-600 duration-300"  />
+                    <FaTwitter
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                   <div>
-                    <FaLinkedinIn size={20} className="hover:text-blue-600 duration-300"  />
+                    <FaLinkedinIn
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                 </div>
                 <div className="mt-10 hover:bg-blue-600 p-3 rounded-full duration-300 text-blue-600 hover:text-white cursor-pointer">
-                  <FaLongArrowAltRight  size={25}/>
+                  <FaLongArrowAltRight size={25} />
                 </div>
               </div>
             </div>
             {/* member3 */}
-            <div className=" mx-auto max-w-[400px] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
+            <div className=" mx-auto max-w-[95%] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
                 alt="member1"
               />
               <div className="mt-5 text-center  flex flex-col h-full items-center justify-between">
-                <h4 className="text-blue-600  text-2xl font-bold">
-                  AI Shuvo
-                </h4>
+                <h4 className="text-blue-600  text-2xl font-bold">AI Shuvo</h4>
                 <h5 className="text-md text-blue-600 font-medium mb-5 ">
                   Web Seo Specialist and Digital marketer
                 </h5>
@@ -457,25 +445,37 @@ const Home = () => {
                 </p>
                 <div className="flex items-center gap-5 mt-10">
                   <div>
-                    <FaFacebookF size={20} className="hover:text-blue-600 duration-300" />
+                    <FaFacebookF
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                   <div>
-                    <FaInstagram size={20} className="hover:text-blue-600 duration-300"  />
+                    <FaInstagram
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                   <div>
-                    <FaTwitter size={20} className="hover:text-blue-600 duration-300"  />
+                    <FaTwitter
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                   <div>
-                    <FaLinkedinIn size={20} className="hover:text-blue-600 duration-300"  />
+                    <FaLinkedinIn
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                 </div>
                 <div className="mt-10 hover:bg-blue-600 p-3 rounded-full duration-300 text-blue-600 hover:text-white cursor-pointer">
-                  <FaLongArrowAltRight  size={25}/>
+                  <FaLongArrowAltRight size={25} />
                 </div>
               </div>
             </div>
             {/* member4 */}
-            <div className=" mx-auto max-w-[400px] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
+            <div className=" mx-auto max-w-[95%] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
@@ -494,20 +494,32 @@ const Home = () => {
                 </p>
                 <div className="flex items-center gap-5 mt-10">
                   <div>
-                    <FaFacebookF size={20} className="hover:text-blue-600 duration-300" />
+                    <FaFacebookF
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                   <div>
-                    <FaInstagram size={20} className="hover:text-blue-600 duration-300"  />
+                    <FaInstagram
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                   <div>
-                    <FaTwitter size={20} className="hover:text-blue-600 duration-300"  />
+                    <FaTwitter
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                   <div>
-                    <FaLinkedinIn size={20} className="hover:text-blue-600 duration-300"  />
+                    <FaLinkedinIn
+                      size={20}
+                      className="hover:text-blue-600 duration-300"
+                    />
                   </div>
                 </div>
                 <div className="mt-10 hover:bg-blue-600 p-3 rounded-full duration-300 text-blue-600 hover:text-white cursor-pointer">
-                  <FaLongArrowAltRight  size={25}/>
+                  <FaLongArrowAltRight size={25} />
                 </div>
               </div>
             </div>

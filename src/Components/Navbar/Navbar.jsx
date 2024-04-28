@@ -3,6 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 import { RiMenu2Line } from "react-icons/ri";
+import "./navbar.css"
 
 const Navbar = () => {
   return (
@@ -35,25 +36,22 @@ const Navbar = () => {
                   Home
                 </NavLink>
               </div>
-              <div>
-                <div className="dropdown dropdown-right">
-                  <div tabIndex={0} role="button" >
-                    <NavLink
-                      to="/services"
-                      className={({ isActive, isPending }) =>
-                        isPending
-                          ? "pending"
-                          : isActive
-                          ? "text-blue-500 text-sm font-medium"
-                          : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-300"
-                      }
-                    >
-                      Services
-                    </NavLink>
-                  </div>
+              <div id="services-sidebar-link">
+                <NavLink
+                  to="/services"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-blue-500 text-sm font-medium"
+                      : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-300"
+                  }
+                >
+                  Services
+                </NavLink>
+                <div id="service-dropdown">
                   <ul
-                    tabIndex={0}
-                    className="dropdown-content z-[1] menu mt-1 delay-200 duration-300 p-10 gap-5 bg-base-100 rounded-box w-72 border-b-4 border-blue-600 shadow-xl
+                    className=" z-[1] menu mt-1 delay-200 duration-300 gap-5 bg-base-100  
                     "
                   >
                     <NavLink
@@ -114,7 +112,7 @@ const Navbar = () => {
                           : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
-                     Web Development
+                      Web Development
                     </NavLink>
                     <NavLink
                       to="/webseo"
@@ -131,6 +129,7 @@ const Navbar = () => {
                   </ul>
                 </div>
               </div>
+
               <div>
                 <NavLink
                   to="/blog"
@@ -206,8 +205,8 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                     ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
-                      : "text-[#2e2e2e] text-sm font-medium"
+                    ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
+                    : "text-[#2e2e2e] text-sm font-medium"
                 }
               >
                 <div className="dropdown dropdown-hover">
@@ -277,7 +276,7 @@ const Navbar = () => {
                           : "text-[#2e2e2e] text-sm font-medium hover:text-blue-600 duration-200 border-b-2 hover:border-b-2 border-transparent hover:border-blue-600"
                       }
                     >
-                     Web Development
+                      Web Development
                     </NavLink>
                     <NavLink
                       to="/webseo"
@@ -302,8 +301,8 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                     ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
-                      : "text-[#2e2e2e] text-sm font-medium"
+                    ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
+                    : "text-[#2e2e2e] text-sm font-medium"
                 }
               >
                 Blog
@@ -316,8 +315,8 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                     ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
-                      : "text-[#2e2e2e] text-sm font-medium"
+                    ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
+                    : "text-[#2e2e2e] text-sm font-medium"
                 }
               >
                 About
@@ -330,8 +329,8 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                     ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
-                      : "text-[#2e2e2e] text-sm font-medium"
+                    ? "text-blue-500 text-sm font-medium border-b-2 border-blue-600 pb-px"
+                    : "text-[#2e2e2e] text-sm font-medium"
                 }
               >
                 Contact

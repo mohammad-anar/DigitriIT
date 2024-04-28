@@ -3,6 +3,9 @@ import mission_image from "../assets/images/mission.png";
 import vision_image from "../assets/images/vision.png";
 import target_image from "../assets/images/achievement.png";
 import member1 from "../assets/images/Masum Ahmed.png";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import member2 from "../assets/my-image1.png"
 const About = () => {
   return (
     <div>
@@ -85,79 +88,124 @@ const About = () => {
         <div>
           {/* heading */}
           <div className="max-w-[600px] mx-auto text-center mb-20 px-4 sm:px-0">
-            <h2 className="text-5xl md:text-6xl font-semibold mb-5">Our Team</h2>
+            <h2 className="text-5xl md:text-6xl font-semibold mb-5">
+              Our Team
+            </h2>
             <p className="max-w-[400px] mx-auto sm:max-w-[600px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
           </div>
-          <div className="flex items-center justify-center flex-wrap sm:grid sm:grid-cols-2 md:grid-cols-2 lg:ml-0  p-5 md:p-10 lg:grid-cols-3 xl:grid-cols-4 gap-20 md:gap-5">
-            {/* member1 */}
-             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5">
+           
+            {/* member2 */}
+            <div className=" mx-auto max-w-[95%] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
-                src={member1}
-                alt="member1"
+                src={member2}
+                alt="member2"
               />
               <div className="mt-5 text-center  flex flex-col h-full items-center justify-between">
-                <h4 className="text-white text-2xl font-bold">Masum Ahmed</h4>
-                <h5 className="text-md text-white font-medium mb-5 ">
-                  Digital Marketer
+                <h4 className="text-blue-600  text-2xl font-bold">
+                  Anarul Islam
+                </h4>
+                <h5 className="text-md text-blue-600 font-medium mb-5 ">
+                  Web Developer
                 </h5>
-                <p className="text-white opacity-85">
-                Hello..! I’m a Data-driven Digital Marketing Specialist & Social Media Manager.
+                <p className="text-gray-500  opacity-85">
+                  Hello..! I’m a Web Developer. I can create and website on MERN Stack, Wordpress and webflow.
                 </p>
+                <div className="flex items-center gap-5 mt-10">
+                  <div>
+                    <FaFacebookF size={20} className="hover:text-blue-600 duration-300" />
+                  </div>
+                  <div>
+                    <FaInstagram size={20} className="hover:text-blue-600 duration-300"  />
+                  </div>
+                  <div>
+                    <FaTwitter size={20} className="hover:text-blue-600 duration-300"  />
+                  </div>
+                  <div>
+                    <FaLinkedinIn size={20} className="hover:text-blue-600 duration-300"  />
+                  </div>
+                </div>
+                <div className="mt-10 hover:bg-blue-600 p-3 rounded-full duration-300 text-blue-600 hover:text-white cursor-pointer">
+                  <FaLongArrowAltRight  size={25}/>
+                </div>
               </div>
             </div>
-            {/* member1 */}
-             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
+            {/* member3 */}
+            <div className=" mx-auto max-w-[95%] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
                 alt="member1"
               />
               <div className="mt-5 text-center  flex flex-col h-full items-center justify-between">
-                <h4 className="text-white text-2xl font-bold">Masum Ahmed</h4>
-                <h5 className="text-md text-white font-medium mb-5 ">
-                  Digital Marketer
+                <h4 className="text-blue-600  text-2xl font-bold">
+                  AI Shuvo
+                </h4>
+                <h5 className="text-md text-blue-600 font-medium mb-5 ">
+                  Web Seo Specialist and Digital marketer
                 </h5>
-                <p className="text-white opacity-85">
-                Hello..! I’m a Data-driven Digital Marketing Specialist & Social Media Manager.
+                <p className="text-gray-500  opacity-85">
+                  Hello..! I’m a Data-driven Digital Marketing Specialist &
+                  Social Media Manager.
                 </p>
+                <div className="flex items-center gap-5 mt-10">
+                  <div>
+                    <FaFacebookF size={20} className="hover:text-blue-600 duration-300" />
+                  </div>
+                  <div>
+                    <FaInstagram size={20} className="hover:text-blue-600 duration-300"  />
+                  </div>
+                  <div>
+                    <FaTwitter size={20} className="hover:text-blue-600 duration-300"  />
+                  </div>
+                  <div>
+                    <FaLinkedinIn size={20} className="hover:text-blue-600 duration-300"  />
+                  </div>
+                </div>
+                <div className="mt-10 hover:bg-blue-600 p-3 rounded-full duration-300 text-blue-600 hover:text-white cursor-pointer">
+                  <FaLongArrowAltRight  size={25}/>
+                </div>
               </div>
             </div>
-            {/* member1 */}
-             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
+            {/* member4 */}
+            <div className=" mx-auto max-w-[95%] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
                 src={member1}
                 alt="member1"
               />
               <div className="mt-5 text-center  flex flex-col h-full items-center justify-between">
-                <h4 className="text-white text-2xl font-bold">Masum Ahmed</h4>
-                <h5 className="text-md text-white font-medium mb-5 ">
-                  Digital Marketer
+                <h4 className="text-blue-600  text-2xl font-bold">
+                  Mofidul Islam
+                </h4>
+                <h5 className="text-md text-blue-600 font-medium mb-5 ">
+                  Youtube SEO Specialist
                 </h5>
-                <p className="text-white opacity-85">
-                Hello..! I’m a Data-driven Digital Marketing Specialist & Social Media Manager.
+                <p className="text-gray-500  opacity-85">
+                  Hello..! I’m a Data-driven Digital Marketing Specialist &
+                  Social Media Manager.
                 </p>
-              </div>
-            </div>
-            {/* member1 */}
-             <div className="bg-blue-500 max-w-[400px] flex items-center justify-center flex-col p-10  rounded-t-full">
-              <img
-                className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
-                src={member1}
-                alt="member1"
-              />
-              <div className="mt-5 text-center  flex flex-col h-full items-center justify-between">
-                <h4 className="text-white text-2xl font-bold">Masum Ahmed</h4>
-                <h5 className="text-md text-white font-medium mb-5 ">
-                  Digital Marketer
-                </h5>
-                <p className="text-white opacity-85">
-                Hello..! I’m a Data-driven Digital Marketing Specialist & Social Media Manager.
-                </p>
+                <div className="flex items-center gap-5 mt-10">
+                  <div>
+                    <FaFacebookF size={20} className="hover:text-blue-600 duration-300" />
+                  </div>
+                  <div>
+                    <FaInstagram size={20} className="hover:text-blue-600 duration-300"  />
+                  </div>
+                  <div>
+                    <FaTwitter size={20} className="hover:text-blue-600 duration-300"  />
+                  </div>
+                  <div>
+                    <FaLinkedinIn size={20} className="hover:text-blue-600 duration-300"  />
+                  </div>
+                </div>
+                <div className="mt-10 hover:bg-blue-600 p-3 rounded-full duration-300 text-blue-600 hover:text-white cursor-pointer">
+                  <FaLongArrowAltRight  size={25}/>
+                </div>
               </div>
             </div>
           </div>
