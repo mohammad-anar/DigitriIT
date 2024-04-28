@@ -20,6 +20,15 @@ const Fbadvertisement = () => {
           <li>Item 5</li>
           <li>Item 6</li>
         </ul>
+        <div>
+          <h1 className="text-4xl font-medium mb-10 mt-20" >Title</h1>
+          <div className="flex gap-5 items-center justify-between">
+            <h3>Item1</h3>
+            <h3>Item1</h3>
+            <h3>Item1</h3>
+            <h3>Item1</h3>
+          </div>
+        </div>
       </div>
       {/* faq section  */}
       <div className="my-20 max-w-[800px] mx-auto">

@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 import { RiMenu2Line } from "react-icons/ri";
-import "./navbar.css"
+import "./navbar.css";
 
 const Navbar = () => {
   return (
@@ -173,13 +173,17 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="hidden lg:block">
-            <img className="w-[180px] -ml-6" src={logo} alt="Logo" />
+            <a href="/">
+              <img className="w-[180px] -ml-6" src={logo} alt="Logo" />
+            </a>
           </div>
         </div>
 
         <div className="navbar-end flex-1">
           <div className="navbar-center lg:hidden hidden sm:block absolute -top-5 left-1/2 -translate-x-1/2">
-            <img className="w-[180px] -ml-6" src={logo} alt="Logo" />
+            <a href="/">
+              <img className="w-[180px] -ml-6" src={logo} alt="Logo" />
+            </a>
           </div>
           <ul className="menu menu-horizontal text-[#2e2e2e] px-1 hidden lg:flex gap-5">
             <div>

@@ -1,7 +1,6 @@
 import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import My_Image from "../assets/images/Masum Ahmed.png";
-import member1 from "../assets/images/Masum Ahmed.png";
 // import RoundedText from "../assets/circlttext.png";
 import facebookAds from "../assets/icons/facebookads.png";
 import conversionAPI from "../assets/icons/conversionapi.png";
@@ -10,8 +9,10 @@ import youtubeSEO from "../assets/icons/youtubeseo.png";
 import webdevelopemnt from "../assets/icons/webdevelopment.png";
 import webSEO from "../assets/icons/webseo.png";
 import Lottie from "lottie-react";
-import heroAnim from "../assets/hero-lottie.json";
+import heroAnim from "../assets/hero-lottie2.json";
 import member2 from "../assets/my-image1.png";
+import member3 from "../assets/member1.jpg";
+import member4 from "../assets/member2.jpg";
 
 import "../Components/Home/animation.css";
 import { FaFacebookF } from "react-icons/fa";
@@ -40,8 +41,8 @@ const Home = () => {
       {/* hero section */}
       <section id="hero" className="lg:mb-20 pt-[100px] lg:pt-0">
         <div className={`h-[100vh] `}>
-          <div className=" lg:h-full w-full flex flex-col lg:flex-row items-center">
-            <div className=" max-w-[800px] px-5 md:px-10 lg:px-16 w-[100%] xl:w-[60%] relative z-20">
+          <div className=" lg:h-full w-full flex flex-col lg:flex-row items-center xl:-mt-20">
+            <div className=" max-w-[800px] px-5 md:px-10 lg:px-16 w-[100%] xl:w-[60%] relative z-20 mt-20">
               <h1 className="md:text-[72px] text-[36px] lg:mt-0 leading-[122%] font-bold max-w-[760px] font-[poppins]">
                 Grow Your <span className="text-[#233DFF]">Digital </span>
                 Presence with Our Experts
@@ -70,8 +71,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[100%] md:min-w-[400px] xl:max-w-[40%] sm:w-[60%] md:w-[70%] mt-[100px]  xl:ml-0 h-full lg:-mt-[120px] xl:-mt-[350px] flex items-end justify-end lg:justify-center lg:items-center xl:items-end xl:justify-end">
-              <Lottie animationData={heroAnim} loop={true} />
+            <div className="w-[100%] md:min-w-[400px] xl:max-w-[40%] sm:w-[60%] md:w-[70%] mt-[100px]  xl:ml-0 h-full lg:-mt-[120px] xl:-mt-[200px] flex items-end justify-end lg:justify-center lg:items-center xl:items-end xl:justify-end">
+              <Lottie className="" animationData={heroAnim} loop={true} />
             </div>
           </div>
         </div>
@@ -80,7 +81,7 @@ const Home = () => {
       {/* service section */}
       <section
         id="service"
-        className="mt-[200px] sm:mt-[320px] md:mt-[600px] lg:mt-[10px]"
+        className="mt-[250px] sm:mt-[320px] md:mt-[600px] lg:mt-[10px] xl:mt-[30px]"
       >
         <div className="min-h-[500px] bg-blue-100 rounded-3xl mb-12 relative">
           <button className="rounded-full bg-blue-200 text-center mx-auto block px-4 py-2 border border-gray-100 relative -top-5">
@@ -378,7 +379,7 @@ const Home = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {/* member2 */}
+            {/* member1 */}
             <div className=" mx-auto max-w-[95%] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
@@ -427,11 +428,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* member3 */}
+            {/* member2 */}
             <div className=" mx-auto max-w-[95%] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
-                src={member1}
+                src={member3}
                 alt="member1"
               />
               <div className="mt-5 text-center  flex flex-col h-full items-center justify-between">
@@ -474,11 +475,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* member4 */}
+            {/* member3 */}
             <div className=" mx-auto max-w-[95%] border flex items-center justify-center flex-col p-5 hover:shadow-xl duration-300">
               <img
                 className="max-w-[200px] w-40 h-40 object-cover rounded-full border block mt-6"
-                src={member1}
+                src={member4}
                 alt="member1"
               />
               <div className="mt-5 text-center  flex flex-col h-full items-center justify-between">
